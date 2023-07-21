@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  background-color: #f5d0fe;
+  height: 100vh;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  padding: 10px;
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+.input-container {
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  border-radius: 3px;
+}
+.save-button {
+  background-color: #d946ef;
+  color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+}
+.edit-button {
+  background-color: #d946ef;
+  color: #ffffff;
+  border: none;
+  height: 30px;
+  width: 80px;
+  border-radius: 3px;
+}
+.para {
+  color: #323f4b;
+  margin-top: 0;
+}
